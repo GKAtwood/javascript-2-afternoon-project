@@ -17,7 +17,9 @@ var arr = [10,20,30];
   Return the first item in the given array.
 */
 
-//Code Here
+function first(arr){
+  return arr[0]
+}
 
 
 
@@ -32,7 +34,11 @@ var arr = [40,50,60];
   Return the last item in the given array.
 */
 
-//Code Here
+function last(arr){
+  return arr[2]
+}
+
+
 
 
 
@@ -47,9 +53,11 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
   Loop through the given array and alert every item in the array.
 */
 
-//Code Here
-
-
+function looper(family){
+  for(let i = 0; i < family.length; i++){
+    alert(family[i])
+  }
+}
 
 ////////// PROBLEM 4 //////////
 
@@ -62,7 +70,6 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
   Loop backwards, starting at the end of the letters array, alerting every item in the array.
 */
 
-//Code Here
 
 
 
